@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- Profile Section with Icon -->
+    <group>
+
+   <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile"
+
+        >
+
+    </item>
+    </group>
+
+
+    <!-- Settings -->
+    <group>
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/setting"
+            android:title="Settings" />
+    </group>
+
+    <!-- Share -->
+    <group>
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/share1"
+            android:title="Share"/>
+    </group>
+
+    <!-- Logout -->
+    <group>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout1"
+            android:title="Logout"/>
+    </group>
+
+</menu>
